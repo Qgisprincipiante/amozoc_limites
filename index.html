@@ -92,6 +92,26 @@
   }
 
 
+  main {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las columnas se acomoden */
+            padding: 1rem;
+        }
+
+        article {
+            flex: 2;
+            min-width: 250px;
+            padding: 1rem;
+        }
+
+        aside {
+            flex: 1;
+            min-width: 200px;
+            background: #f4f4f4;
+            padding: 1rem;
+        }
+    
+
  /* Media query para pantallas pequeñas */
         @media (max-width: 768px) {
             nav {
